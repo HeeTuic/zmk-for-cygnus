@@ -25,6 +25,9 @@ draw_config:
     text.layer-label { fill: #7ccdfd; font-weight: bold; }
 
 parse_config:
+  zmk_config_dir: "config"
+  zmk_additional_includes:
+    - "config/boards/shields/cygnus"
   
   zmk_keycode_map:
     EXCLAMATION: '!'
