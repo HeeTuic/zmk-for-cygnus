@@ -1,10 +1,16 @@
+# keymap_drawer.config.yaml
 draw_config:
+  
   key_w: 60.0
   key_h: 56.0
   split_gap: 30.0
   combo_side_ratio: 0.4
+
+  
   font_size: 14
   font_family: "JetBrains Mono, Inter, system-ui, sans-serif"
+  
+  
   style_css: |
     svg { background: #1a1b26; color: #a9b1d6; }
     rect.key { fill: #24283b; stroke: #414868; stroke-width: 1.5; rx: 6; ry: 6; }
@@ -19,17 +25,8 @@ draw_config:
     text.layer-label { fill: #7ccdfd; font-weight: bold; }
 
 parse_config:
-  zmk_config_dir: "config"
-  zmk_keyboard: "cygnus"
-  
 
-  layout_mapping:
-    cygnus:
-      rows: 4
-      columns: 12
-      thumbs: 6
   
-  # 保持你的 keycode 映射不变
   zmk_keycode_map:
     EXCLAMATION: '!'
     EXCL: '!'
@@ -100,6 +97,8 @@ parse_config:
     DEL: 'DEL'
     ESCAPE: 'ESC'
     ESC: 'ESC'
+    
+    
     LEFT_CONTROL: 'Ctrl'
     LCTRL: 'Ctrl'
     RIGHT_CONTROL: 'Ctrl'
@@ -116,6 +115,8 @@ parse_config:
     LGUI: 'Cmd'
     RIGHT_GUI: 'Cmd'
     RGUI: 'Cmd'
+    
+    
     UP: '↑'
     DOWN: '↓'
     LEFT: '←'
