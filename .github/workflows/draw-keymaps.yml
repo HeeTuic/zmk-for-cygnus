@@ -17,3 +17,5 @@ jobs:
       keymap_patterns: "config/cygnus.keymap"
       output_folder: "img"  
       config_path: "keymap_drawer.config.yaml"
+      parse_args: "--physical-layout-path config/boards/shields/cygnus/cygnus.dtsi"
+
