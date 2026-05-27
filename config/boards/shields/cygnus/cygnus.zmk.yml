@@ -1,0 +1,13 @@
+file_format: "1"
+id: cygnus
+name: Cygnus
+type: shield
+url: https://github.com/Bastardkb/Cygnus/
+requires: [pro_micro]
+features:
+  - keys
+  - pointer
+  - underglow
+siblings:
+  - cygnus_left
+  - cygnus_right
