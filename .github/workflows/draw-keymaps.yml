@@ -1,21 +1,16 @@
 name: Draw ZMK keymaps
-
 on:
-  workflow_dispatch:  
+  workflow_dispatch:
   push:
     paths:
       - "config/cygnus.keymap"
       - "keymap_drawer.config.yaml"
-
 jobs:
   draw:
-    
     uses: caksoylar/keymap-drawer/.github/workflows/draw-zmk.yml@main
     permissions:
-      contents: write  
+      contents: write
     with:
       keymap_patterns: "config/cygnus.keymap"
-      output_folder: "img"  
+      output_folder: "img"
       config_path: "keymap_drawer.config.yaml"
-      parse_args: "--physical-layout-path config/boards/shields/cygnus/cygnus.dtsi"
-
