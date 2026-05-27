@@ -126,12 +126,3 @@ parse_config:
     PG_UP: 'PgUp'
     PAGE_DOWN: 'PgDn'
     PG_DN: 'PgDn'
-
-
-layouts:
-  cygnus:
-    ortho:
-      split: true
-      rows: 3
-      columns: 6
-      thumbs: 3
