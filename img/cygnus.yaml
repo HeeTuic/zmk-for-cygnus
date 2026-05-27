@@ -1,4 +1,4 @@
-layout: {zmk_keyboard: charybdis}
+layout: {zmk_keyboard: cygnus}
 layers:
   Base:
   - '`'
@@ -54,8 +54,6 @@ layers:
   - {t: Enter, h: Lower}
   - {t: Enter, h: Raise}
   - Alt
-  - Alt
-  - CAPSLOCK
   - DEL
   Lower:
   - '~'
@@ -111,9 +109,7 @@ layers:
   - {type: held}
   - Enter
   - Alt
-  - ''
-  - ''
-  - ''
+  - DEL
   Raise:
   - F12
   - F1
@@ -168,9 +164,7 @@ layers:
   - Enter
   - {type: held}
   - Alt
-  - ''
-  - ''
-  - ''
+  - DEL
   Mouse:
   - ''
   - ''
@@ -226,8 +220,6 @@ layers:
   - '&mkp RCLK'
   - '&mkp LCLK'
   - ''
-  - ''
-  - ''
   Scroll:
   - ''
   - ''
@@ -282,6 +274,4 @@ layers:
   - '&mkp RCLK'
   - '&mkp RCLK'
   - '&mkp LCLK'
-  - ''
-  - ''
   - ''
