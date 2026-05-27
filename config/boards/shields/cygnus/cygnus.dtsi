@@ -102,7 +102,7 @@
     };
 };
 
-&charybdis_layout{
+&cygnus_layout{
 
 	transform = <&default_transform>;
 
