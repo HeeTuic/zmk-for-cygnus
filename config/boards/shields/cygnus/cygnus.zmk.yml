@@ -2,7 +2,7 @@ file_format: "1"
 id: cygnus
 name: Cygnus
 type: shield
-url: https://github.com/Bastardkb/Cygnus/
+url: https://github.com/juhakaup/keyboards
 requires: [pro_micro]
 features:
   - keys
